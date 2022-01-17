@@ -1,11 +1,7 @@
 import { products } from '../utils/data';
 import { sortBy } from '../utils/sortBy';
-import { defaultConfig } from '../utils/constants';
 
 export const getFilteredData = (sideFilterConfig) => {
-  // if (sideFilterConfig === defaultConfig) {
-  //   return products;
-  // }
   return sortBy(
     products.reduce((acc, item) => {
       if (

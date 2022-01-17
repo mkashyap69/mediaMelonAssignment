@@ -1,4 +1,4 @@
-import React, { useState, useEffect, memo, useMemo } from 'react';
+import React, { useState, useEffect, memo } from 'react';
 import ContentHeader from './ContentHeader';
 import Product from './Product';
 import './css/Content.css';

@@ -1,4 +1,4 @@
-import React, { useState, memo, useMemo } from 'react';
+import React, { useState, memo } from 'react';
 
 const RangeFilter = memo(({ setSideFilterConfig, sideFilterConfig }) => {
   const [range, setRange] = useState(800);
