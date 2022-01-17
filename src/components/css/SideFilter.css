@@ -1,0 +1,67 @@
+.filters {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+  height: 60vh;
+  margin-inline: auto;
+  padding-block: 5rem;
+  padding-inline: 2rem;
+  border: var(--border);
+  box-shadow: 2px 2px 2px lightgray;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.categories > p {
+  width: 100%;
+}
+
+.categories-filters {
+  width: 100%;
+}
+.categories-filters--wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-block: 0.4rem;
+}
+.categories-filters--wrapper > input {
+  width: 1rem;
+}
+label {
+  font-size: clamp(0.5rem, 2vw, 1rem);
+  margin-left: 1rem;
+}
+
+.price {
+  width: 80%;
+}
+
+.size-filter {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.size-square {
+  width: clamp(0.5rem, 2vw, 1rem);
+  height: clamp(0.5rem, 2vw, 1rem);
+  font-size: clamp(0.5rem, 2vw, 1rem);
+  border-radius: 0.2rem;
+  padding: 0.3rem;
+  margin-right: 1rem;
+  margin-block: 0.6rem;
+  border: var(--border);
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.selected {
+  background-color: lightgray;
+}
